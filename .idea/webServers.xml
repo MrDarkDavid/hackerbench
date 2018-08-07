@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="071d898a-55b7-4528-b25f-cf08a075d9b2" name="hackerbench.com" url="http://hackerbench.com/">
+        <fileTransfer host="hackerbench.com" port="22" privateKey="$USER_HOME$/.ssh/id_rsa.ppk" rootFolder="/var/www/html/hackerbench" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
